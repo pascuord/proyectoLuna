@@ -1,0 +1,15 @@
+
+
+.container-viajes{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.item-viajes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: hotpink;
+    flex: 1;
+}

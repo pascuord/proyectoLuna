@@ -22,7 +22,7 @@
 .item {
   height: 100px;
   width: 49%;
-  background: red;
+  background: #000000;
   margin-bottom: 7%;
   height: 30vh;
 }
@@ -38,6 +38,42 @@
 }
 .item:nth-child(3n) {
   width: 100%;
+}
+.item-link {
+  color: white;
+  text-decoration: none;
+}
+.body-interior {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  margin: 0;
+}
+.nav {
+  flex: 1;
+  background-color: grey;
+}
+.container-viajes {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+.item-viajes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: hotpink;
+  flex: 1;
+}
+.container-detalle {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.item-container-detalle {
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: green;
 }
 /**
  * Do NOT include anything else in this file!

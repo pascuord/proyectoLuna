@@ -7,7 +7,7 @@
 .item {
   height: 100px;
   width: 49%;
-  background:red;
+  background: #000000;
   margin-bottom: 7%;
   height: 30vh;
 }
@@ -25,4 +25,22 @@
 
 .item:nth-child(3n){
   width: 100%;
+}
+
+.item-link{
+  color: white;
+  text-decoration: none;
+}
+
+.body-interior{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  margin: 0;
+}
+
+.nav{
+  flex: 1;
+  background-color: grey;
+  
 }
