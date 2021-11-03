@@ -1,0 +1,44 @@
+.body-interior{
+    font-family: $font;
+}
+
+.container-header{
+    padding: 1%;
+}
+
+.container-h1{
+    text-align: center;
+}
+
+.container-h2{
+    text-align: center;
+}
+
+.container-li{
+    list-style: none;
+}
+
+.container-li-a{
+    font-size: $font-extra-big;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container-li-a:link{
+    color: #ffffff;
+}
+
+.container-ul{
+    padding-left: 0px;
+}
+
+.container-ul-li{
+    list-style: none;
+    margin-bottom: 1em;
+    
+}
+
+.container-ul-li-li{
+    list-style: none;
+    margin-bottom: 0.3em;
+}

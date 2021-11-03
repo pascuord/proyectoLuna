@@ -1,0 +1,30 @@
+.nav{
+    flex: 1;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.nav-li-a{
+    text-decoration: none;
+    font-family: $font;
+    font-size: $font-big;
+}
+
+.nav-li-a:link{
+    color: #ffffff;
+}
+
+.nav-li-a:hover{
+    color: #808080;
+}
+
+.nav-li{
+    list-style: none;
+}
+
+.nav-ul{
+    padding-left: 0.5em;
+    margin-right: 1em;
+}
+
+

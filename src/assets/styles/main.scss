@@ -3,6 +3,7 @@
  * Do not include SCSS code in this file.
  */
 
+ 
 /**
  * Import variables
  */
@@ -26,6 +27,20 @@
 @import "layouts/home";
 @import "layouts/viajes";
 @import "layouts/detalle";
+
+/**
+ * Import modules
+ * 
+ */
+
+@import "module/nav";
+
+/**
+ * Import base
+ * 
+ */
+
+@import "base/base";
 
 /**
  * Do NOT include anything else in this file!
