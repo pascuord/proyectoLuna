@@ -1,0 +1,23 @@
+.item--detalle--nosotros {
+   color: white;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) ,url(../images/nosotros/nosotrosUniverse.jpg);
+  }
+
+.item--detalle--nosotros--imagen-cabecera{
+    background-image: url(../images/nosotros/nosotrosViaLactea.jpg);
+    min-height: 500px;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+
+.article--nosotros{
+    width: 70%;
+    margin: auto;
+    font-size: $font;
+    line-height: 1.7em;
+}
+
+.article__h2--nosotros{
+    text-align: center;
+}

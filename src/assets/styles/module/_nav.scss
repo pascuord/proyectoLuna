@@ -4,27 +4,29 @@
     color: #ffffff;
 }
 
-.nav-li-a{
+.nav__ul__li__a{
     text-decoration: none;
     font-family: $font;
     font-size: $font-big;
+    text-transform: uppercase;
 }
 
-.nav-li-a:link{
+.nav__ul__li__a:link{
     color: #ffffff;
 }
 
-.nav-li-a:hover{
+.nav__ul__li__a:hover{
     color: #808080;
 }
 
-.nav-li{
+.nav__ul__li{
     list-style: none;
 }
 
-.nav-ul{
+.nav__ul{
     padding-left: 0.5em;
     margin-right: 1em;
+    margin-bottom: 0;
 }
 
 

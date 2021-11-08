@@ -1,10 +1,20 @@
 @font-face {
     font-family: ddin;
+    src: url(../fonts/d-din-font/D-DIN.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: ddin;
     src: url(../fonts/d-din-font/D-DIN-Bold.otf);
     font-weight: bold;
 }
 
+$font-noweight:"ddin-noweight", Verdana, sans-serif;
+
 $font: "ddin", Verdana, sans-serif;
+
+$font-small: 1em;
 $font-big: 1.5em;
 $font-big-big: 2em;
 $font-extra-big: 3.5em;

@@ -2,32 +2,32 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: black;
 }
 
-.item {
-  height: 100px;
+.item--home {
+  height: 32vh;
   width: 49%;
-  background: #000000;
-  margin-bottom: 7%;
-  height: 30vh;
+  background-color: #000000;
+  margin-bottom: 1%;
 }
 
-.item-figure{
+.item__figure{
   margin: 0;
   height: 100%;
 }
 
-.item-img{
+.item__figure__img{
   width: 100%;
   height: 30vh;
   object-fit: cover;
 }
 
-.item:nth-child(3n){
+.item--home:nth-child(3n){
   width: 100%;
 }
 
-.item-link{
+.item__figure__a{
   color: white;
   text-decoration: none;
 }
