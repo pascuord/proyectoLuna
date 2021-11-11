@@ -1,0 +1,29 @@
+.container--enlaces{
+    color: white;
+
+}
+
+.item--enlaces{
+    width: 80%;
+}
+
+.a--enlaces:link{
+    color: #00ffff;
+    text-decoration: none;
+}
+
+.a--enlaces:visited{
+    color: #00ffff;
+}
+
+.a--enlaces:focus{
+    color: #00ffff
+}
+
+.a--enlaces:hover{
+    color: gray;
+}
+
+.a--enlaces:active{
+    color: #00ffff;
+}

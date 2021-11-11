@@ -3,10 +3,11 @@
     flex-direction: column;
     //align-items: center;
     flex: 1;
+    font-size: $font-big;
   }
   
   .item--detalle {
-    height: auto;
+    min-height: 700px;
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;

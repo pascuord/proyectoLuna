@@ -1,21 +1,25 @@
 .body--viajes{
-    display: flex;
+    //display: flex;
     min-height: 100vh;
-    flex-direction: row;
+    //flex-direction: row;
     margin:0;
 }
 
 .container--viajes{
-    display: flex;
+    //display: flex;
     flex-direction: column;
-    flex: 5;
+    //flex: 5;
 }
 
 .item--viajes{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    min-height: 700px;
+    font-size: $font-big;
 }
+
+
 
 .item--viajes--spacex{
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../images/viajes/spaceXBack.jpg);

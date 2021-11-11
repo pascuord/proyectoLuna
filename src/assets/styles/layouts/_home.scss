@@ -5,6 +5,14 @@
   background-color: black;
 }
 
+.header--home{
+  background-color: black;
+  color: white;
+  text-align: center;
+  background-image: url(../images/nosotros/nosotrosViaLactea.jpg);
+  font-size: $font-big-big;
+}
+
 .item--home {
   height: 32vh;
   width: 49%;
@@ -30,6 +38,8 @@
 .item__figure__a{
   color: white;
   text-decoration: none;
+  font-size: $font-big;
+  font-weight: bold;
 }
 
 .body-interior{
@@ -38,4 +48,3 @@
   flex-direction: row;
   margin: 0;
 }
-

@@ -30,6 +30,13 @@
   justify-content: space-between;
   background-color: black;
 }
+.header--home {
+  background-color: black;
+  color: white;
+  text-align: center;
+  background-image: url(nosotrosViaLactea.59fb59a1.jpg);
+  font-size: 2em;
+}
 .item--home {
   height: 32vh;
   width: 49%;
@@ -52,6 +59,8 @@
 .item__figure__a {
   color: white;
   text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 .body-interior {
   display: flex;
@@ -60,20 +69,18 @@
   margin: 0;
 }
 .body--viajes {
-  display: flex;
   min-height: 100vh;
-  flex-direction: row;
   margin: 0;
 }
 .container--viajes {
-  display: flex;
   flex-direction: column;
-  flex: 5;
 }
 .item--viajes {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  min-height: 700px;
+  font-size: 1.5em;
 }
 .item--viajes--spacex {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(spaceXBack.6bc593ed.jpg);
@@ -91,9 +98,10 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  font-size: 1.5em;
 }
 .item--detalle {
-  height: auto;
+  min-height: 700px;
   background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,7 +123,7 @@
   background-image: url(nosotrosViaLactea.59fb59a1.jpg);
   min-height: 500px;
   color: white;
-  font-size: 5em;
+  font-size: 3em;
   text-align: center;
 }
 .article--nosotros {
@@ -126,6 +134,45 @@
 }
 .article__h2--nosotros {
   text-align: center;
+}
+.item--noticias {
+  color: #ffffff;
+}
+.container--destinos {
+  flex-direction: column;
+}
+.item--destinos {
+  color: white;
+}
+.figure__image--destinos {
+  margin: auto;
+  width: 100%;
+}
+.item--destinos p {
+  width: 70%;
+  margin: auto;
+}
+.container--enlaces {
+  color: white;
+}
+.item--enlaces {
+  width: 80%;
+}
+.a--enlaces:link {
+  color: #00ffff;
+  text-decoration: none;
+}
+.a--enlaces:visited {
+  color: #00ffff;
+}
+.a--enlaces:focus {
+  color: #00ffff;
+}
+.a--enlaces:hover {
+  color: gray;
+}
+.a--enlaces:active {
+  color: #00ffff;
 }
 /**
  * Import modules
@@ -152,9 +199,10 @@
   list-style: none;
 }
 .nav__ul {
-  padding-left: 0.5em;
+  margin-top: 0;
   margin-right: 1em;
   margin-bottom: 0;
+  padding: 0.5em 0.5em 0.5em 0.5em;
 }
 /**
  * Import base
@@ -166,24 +214,46 @@
 }
 .header {
   padding: 1em;
-}
-.header__h1 {
+  background-color: black;
+  color: white;
   text-align: center;
+  background-image: url(nosotrosViaLactea.59fb59a1.jpg);
+  font-size: 2em;
+}
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:focus {
+  color: gray;
+}
+a:hover {
+  color: gray;
+}
+a:active {
+  color: #00ffff;
 }
 .item {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: gray;
+  background-color: #000000;
   flex: 1;
   padding: 1%;
 }
 .item__h2 {
+  margin-top: 0;
   text-align: center;
+  color: white;
 }
 .item__ul {
+  margin-top: 0;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  margin-bottom: 0;
 }
 .item__ul__ul {
   padding-left: 0.5em;
@@ -191,16 +261,16 @@
 }
 .item__ul__ul__li {
   list-style: none;
-  margin-bottom: 1em;
+  margin-bottom: 0;
 }
 .item__ul__li__a {
   font-size: 3.5em;
   text-decoration: none;
   text-transform: uppercase;
 }
-.item__ul__li__a:link {
-  color: #ffffff;
-}
+/*.item__ul__li__a:link{
+    color: #ffffff;
+}*/
 .item__ul__ul__li__ul {
   padding-left: 0.5em;
 }
@@ -213,7 +283,7 @@
   margin-bottom: 0.7em;
 }
 .footer {
-  padding: 5%;
+  padding: 2%;
   background-color: #000000;
   color: #ffffff;
 }
@@ -225,7 +295,7 @@
 }
 .article {
   padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 2em;
   text-align: justify;
 }
 .video {
@@ -237,9 +307,9 @@
   margin-bottom: 0.5em;
 }
 .video__iframe {
-  margin-left: 0.5em;
+  margin: auto;
   height: 100%;
-  width: 95%;
+  width: 89%;
   position: absolute;
 }
 figure {
