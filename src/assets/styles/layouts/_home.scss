@@ -20,6 +20,28 @@
   margin-bottom: 1%;
 }
 
+.item--home__countdown{
+  position: absolute;
+    bottom: 125px;
+    left: 16px;
+    width: 92%;
+}
+
+@media (min-width: 401px){
+  .item--home__countdown{
+    position: absolute;
+      bottom: 235px;
+      left: 16px;
+      width: 92%;
+  }
+}
+
+.item--home__countdown__span{
+  float: left;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
 .item__figure{
   margin: 0;
   height: 100%;

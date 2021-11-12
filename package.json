@@ -4,7 +4,7 @@
   "private": true,
   "description": "Web site for moon trips",
   "scripts": {
-    "parcel:serve": "parcel src/index.html -p 8123 --target web --open",
+    "parcel:serve": "parcel src/index.html -p 8124 --target web --open",
     "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
     "clean": "rimraf dist .cache .cache-loader .parcel-cache",
     "dev": "npm-run-all clean parcel:serve",
@@ -15,15 +15,12 @@
   "targets": {
     "web": {
       "context": "browser",
-      "publicUrl": "./",
-      "engines": {
-        "browsers": "last 2 versions, > 0.5%, not dead"
-      }
+      "publicUrl": "./"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
+    "url": "git+https://github.com/pascuord/proyectoLuna"
   },
   "author": {
     "name": "Pascual Ordiñana Soler",
@@ -31,9 +28,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues"
+    "url": "https://github.com/pascuord/proyectoLuna"
   },
-  "homepage": "https://github.com/uoc-advanced-html-css/uoc-boilerplate#readme",
+  "homepage": "https://moon-trip.netlify.app/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0",
     "autoprefixer": "^10.4.0",
@@ -44,6 +41,7 @@
     "sharp": "^0.29.1"
   },
   "dependencies": {
-    "browserslist": "^4.17.5"
+    "browserslist": "^4.17.5",
+    "moment": "^2.29.1"
   }
 }
